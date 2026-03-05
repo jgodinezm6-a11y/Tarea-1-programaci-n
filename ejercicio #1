@@ -17,3 +17,8 @@ int main(){
       cout << "Error: Ingresaste un caracter que no es ni 0 ni 1." << endl;
       return 1;
     }
+    multiplicador = multiplicador * 2;
+  } 
+cout << "El numero binario " << binario << " en decimal es: " << decimal << endl;
+  return 0;
+}
